@@ -1,0 +1,175 @@
+/* Base reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Body default styling */
+body {
+    line-height: 1;
+    font-family: sans-serif, Arial, Helvetica, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Blockquote and Quotes */
+blockquote, q {
+    quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+    content: '';
+    content: none;
+}
+
+/* List reset */
+ol, ul {
+    list-style: none;
+}
+
+/* Table reset */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Anchor links reset */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Forms - Normalize form controls */
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    color: inherit;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Form inputs */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+textarea,
+select {
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* Buttons reset */
+button, input[type="button"], input[type="submit"] {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+/* Remove outline for focused elements */
+button:focus, input:focus, select:focus, textarea:focus {
+    outline: none;
+}
+
+/* Remove text decoration for links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Prevent form elements from stretching */
+select, input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Set up a global box-sizing strategy */
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Image reset */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Make sure the base fonts are consistent */
+html {
+    font-size: 16px;
+}
+
+/* Remove unwanted spacing around paragraphs */
+p {
+    margin: 0;
+}
+
+/* Consistent spacing and removal of list bullets */
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* Normalize input focus outline */
+input:focus, button:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+/* Remove underlines from hyperlinks */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Set display properties for inline-level elements */
+code, kbd, samp, var {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Header and section elements */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/* Set line-height and font-size consistently for body */
+body {
+    line-height: 1.5;
+}
+
+/* Allow for smooth transitions when applicable */
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Fix layout issues in flexbox or grid-based designs */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}

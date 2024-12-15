@@ -1,0 +1,33 @@
+/* Custom button styles */
+.btnCustomDanger {
+    padding: 0.25rem 0.5rem;
+    margin-left: 0.25rem;
+    display: inline-block;
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: white;
+    font-size: 0.6rem;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+.btnCustomWarning {
+    padding: 0.25rem 0.5rem;
+    margin-left: 0.25rem;
+    display: inline-block;
+    background-color: #ffc107; /* Bootstrap warning color */
+    color: white;
+    font-size: 0.6rem;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+.btnCustomSuccess {
+    padding: 0.25rem 0.5rem;
+    margin-left: 0.25rem;
+    display: inline-block;
+    background-color: #28a745; /* Bootstrap success color */
+    color: white;
+    font-size: 0.6rem;
+    border-radius: 0.25rem;
+    text-align: center;
+}
